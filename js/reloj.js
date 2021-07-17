@@ -20,6 +20,26 @@ export function digitalClock(clock,btnPlay,btnStop){
     });
     }
 
-export function alarm(){
+export function alarm(sound, btnAct,btnDes){
+    let alarmTempo;
+    const $alarm=d.createElement("audio");
+    $alarm.src=sound;
     
+    d.addEventListener("click",e=>{
+        
+        if(e.target.matches(btnAct)){
+            alarmTempo=setTimeout(()=>{
+                $alarm.play();
+            },1000);
+
+            e.target.disabled=true;
+        }
+   
+        if(e.target.matches(btnDes)){
+            clearTimeout(alarmTempo);
+            $alarm.pause();
+            $alarm.currentTime=0;
+            d.querySelector(btnAct).disabled=false;
+        }
+    });
 }
