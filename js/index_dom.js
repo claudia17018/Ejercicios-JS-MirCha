@@ -1,3 +1,4 @@
+import { scrollTopBoton } from "./boton_scroll.js";
 import { cuentaRegresiva } from "./cuenta-regresiva.js";
 import hamburgerMenu from "./menu.js";
 import { digitalClock, alarm } from "./reloj.js";
@@ -10,6 +11,7 @@ d.addEventListener("DOMContentLoaded", (e)=> {
     digitalClock("#reloj","#activar-reloj","#desactivar-reloj");
     alarm("assets/alarma.mp3","#activar-alarma","#desactivar-alarma");
     cuentaRegresiva("countdown","May 23,2022","Feliz Dia");
+    scrollTopBoton(".scroll-top-btn");
 });
 
 d.addEventListener("keydown", (e)=>{
