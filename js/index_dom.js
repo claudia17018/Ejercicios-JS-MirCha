@@ -12,6 +12,7 @@ import webCam from "./deteccion_web.js";
 import getGeolocation from "./geolocation.js";
 import searchFilter from "./filtro_busquedas.js";
 import scrollSpy from "./scroll_espia.js";
+import speechReader from "./narrador.js";
 
 const d=document;
 
@@ -37,6 +38,8 @@ d.addEventListener("keydown", (e)=>{
  moveBall(e,".ball",".stage");
 });
 
-darkTheme(".dark-theme-btn","<dark-mode></dark-mode>");
+darkTheme(".dark-theme-btn","dark-mode");
 newtworkStatus();
+speechReader();
+
 
