@@ -1,0 +1,61 @@
+{
+  "portadores": [
+    {
+      "id": 1,
+      "nombre": "Eren Jaegar",
+      "titan": "Ataque"
+    },
+    {
+      "id": 2,
+      "nombre": "Armin Arlet",
+      "titan": "Colosal"
+    },
+    {
+      "id": 3,
+      "nombre": "Reiner Braun",
+      "titan": "Acorazado"
+    },
+    {
+      "id": 4,
+      "nombre": "Zeke ",
+      "titan": "Bestia"
+    },
+    {
+      "id": 5,
+      "nombre": "Falco",
+      "titan": "Mandibula"
+    },
+    {
+      "id": 6,
+      "nombre": "Pieck",
+      "titan": "Carguero"
+    }
+  ],
+  "legion": [
+    {
+      "id": 1,
+      "nombre": "Levi Ackerman",
+      "cargo": "Capitán"
+    },
+    {
+      "id": 2,
+      "nombre": "Erwin Smith",
+      "cargo": "Comandante"
+    },
+    {
+      "id": 3,
+      "nombre": "Sasha Braun",
+      "cargo": "Soldado elite"
+    },
+    {
+      "id": 4,
+      "nombre": "Hange Zoe",
+      "cargo": "Ingenieria"
+    },
+    {
+      "nombre": "Jean",
+      "cargo": "Soldado de elite",
+      "id": 5
+    }
+  ]
+}
