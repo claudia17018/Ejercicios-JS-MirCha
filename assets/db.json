@@ -43,19 +43,24 @@
       "cargo": "Comandante"
     },
     {
-      "id": 3,
-      "nombre": "Sasha Braun",
-      "cargo": "Soldado elite"
-    },
-    {
-      "id": 4,
       "nombre": "Hange Zoe",
-      "cargo": "Ingenieria"
+      "cargo": "Comandante",
+      "id": 4
     },
     {
-      "nombre": "Jean",
-      "cargo": "Soldado de elite",
+      "nombre": "Jean Kirschtein",
+      "cargo": "Soldado ",
       "id": 5
+    },
+    {
+      "nombre": "Connie Springer",
+      "cargo": "Soldado",
+      "id": 7
+    },
+    {
+      "nombre": "Sasha Blouse",
+      "cargo": "Francotiradora",
+      "id": 8
     }
   ]
 }
